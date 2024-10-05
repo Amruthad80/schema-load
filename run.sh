@@ -12,3 +12,4 @@ if [ "$DB_TYPE" == "mysql" ]; then
     mysql -h $DB_HOST -u$DB_USER -p$DB_PASS < /app/db/$file.sql
   done
 fi
+
